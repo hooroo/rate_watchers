@@ -1,5 +1,11 @@
 require "rate_watchers/version"
 
 module RateWatchers
-  # Your code goes here...
+  class Robot
+
+    def run
+      puts 'Running...'
+    end
+
+  end
 end

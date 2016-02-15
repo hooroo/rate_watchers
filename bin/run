@@ -1,0 +1,6 @@
+#!/usr/bin/env ruby
+
+require 'rate_watchers'
+
+robot = RateWatchers::Robot.new
+robot.run
